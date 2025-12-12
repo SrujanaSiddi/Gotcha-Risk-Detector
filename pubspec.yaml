@@ -1,0 +1,26 @@
+name: gotcha
+description: A privacy literacy tool.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # For State Management
+  flutter_riverpod: ^2.4.0
+  # For Fonts (Abril Fatface is available, others will be mapped to closest)
+  google_fonts: ^6.1.0
+  # For Icons (Lucide or similar can be used, but we will use standard Icons to keep it simple)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  # If you have local font files for "Apricots" or "Anonymous Pro", add them here.
+  # We will use GoogleFonts for immediate runnability.
